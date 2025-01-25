@@ -110,7 +110,7 @@
             >;
         };
 
-        func_layer {
+        media_layer {
             bindings = <
 &none  &none      &none     &none      &none         &none    &rgb_ug RGB_TOG  &rgb_ug RGB_EFF   &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &none
 &none  &kp LCTRL  &kp LALT  &kp LSHFT  &kp LEFT_GUI  &none    &kp C_MUTE       &kp C_REWIND      &kp C_VOL_DN     &kp C_VOLUME_UP  &kp C_FF         &none
@@ -125,6 +125,15 @@
 &trans  &kp LCTRL  &kp LALT  &kp LSHFT  &kp LGUI  &trans    &kp CAPS         &kp LEFT       &kp DOWN_ARROW  &kp RIGHT      &kp K_CUT    &trans
 &trans  &trans     &trans    &trans     &trans    &trans    &kp PRINTSCREEN  &kp INS        &kp HOME        &kp END        &kp K_PASTE  &trans
                              &trans     &trans    &trans    &kp ENTER        &kp BACKSPACE  &kp DEL
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&none  &kp F12  &kp F7  &kp F8      &kp F9     &kp K_REDO         &none  &none     &none      &none          &none      &none
+&none  &kp F11  &kp F4  &kp F5      &kp F6     &kp SCROLLLOCK     &none  &kp RGUI  &kp RSHFT  &kp RIGHT_ALT  &kp RCTRL  &none
+&none  &kp F10  &kp F1  &kp F2      &kp F3     &kp PRINTSCREEN    &none  &none     &none      &none          &none      &none
+                        &kp ESCAPE  &kp SPACE  &kp TAB            &none  &none     &none
             >;
         };
     };
